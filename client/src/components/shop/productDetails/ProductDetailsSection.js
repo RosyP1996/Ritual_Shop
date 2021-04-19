@@ -177,7 +177,7 @@ const ProductDetailsSection = (props) => {
               <div className="text-2xl tracking-wider">{sProduct.pName}</div>
               <div className="flex justify-between items-center">
                 <span className="text-xl tracking-wider text-yellow-700">
-                  ${sProduct.pPrice}.00
+                  Rs.{sProduct.pPrice}.00
                 </span>
                 <span>
                   <svg
@@ -387,7 +387,7 @@ const ProductDetailsSection = (props) => {
                           totalCost
                         )
                       }
-                      style={{ background: "#303031" }}
+                      style={{ background: "#0000FF" }}
                       className={`px-4 py-2 text-white text-center cursor-pointer uppercase`}
                     >
                       Add to cart

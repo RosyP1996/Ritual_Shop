@@ -66,7 +66,7 @@ const CartModal = (props) => {
         } fixed z-40 inset-0 flex items-start justify-end`}
       >
         <div
-          style={{ background: "#303031" }}
+          style={{ background: "#0000FF" }}
           className="w-full md:w-5/12 lg:w-4/12 h-full flex flex-col justify-between"
         >
           <div className="overflow-y-auto">
@@ -118,9 +118,9 @@ const CartModal = (props) => {
                             <div>
                               {" "}
                               <span className="text-sm text-gray-400">
-                                Subtotoal :
+                                Subtotal :
                               </span>{" "}
-                              ${subTotal(item._id, item.pPrice)}.00
+                              Rs.{subTotal(item._id, item.pPrice)}.00
                             </div>{" "}
                             {/* SUbtotal Count */}
                           </div>
@@ -173,7 +173,7 @@ const CartModal = (props) => {
                       cartModalOpen();
                     }}
                   >
-                    Checkout ${data.cartTotalCost}.00
+                    Checkout Rs.{data.cartTotalCost}.00
                   </div>
                 ) : (
                   <div
@@ -191,7 +191,7 @@ const CartModal = (props) => {
                       });
                     }}
                   >
-                    Checkout ${data.cartTotalCost}.00
+                    Checkout Rs.{data.cartTotalCost}.00
                   </div>
                 )}
               </Fragment>

@@ -5,7 +5,7 @@ const AdminFooter = (props) => {
   return (
     <Fragment>
       <footer
-        style={{ background: "#303031", color: "#87898A" }}
+        style={{ background: "#FF00FF", color: "#000000" }}
         className="z-10 py-6 px-4 md:px-12 text-center"
       >
         Ritual © Copyright {moment().format("YYYY")}

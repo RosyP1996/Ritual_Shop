@@ -30,27 +30,22 @@ const Navber = (props) => {
   return (
     <Fragment>
       {/* Navber Section */}
-      <nav className="fixed top-0 w-full z-10 shadow-lg lg:shadow-none bg-white">
+      <nav  style={{ background: "#FF00FF", color: "#FFFFFF" }} className="fixed top-0 w-full z-10 shadow-lg lg:shadow-none bg-white">
         <div className="m-4 md:mx-12 md:my-6 grid grid-cols-4 lg:grid-cols-3">
           <div className="hidden lg:block col-span-1 flex text-gray-600 mt-1">
-            <span
+            <span style={{color:"#000000"}}
               className="hover:bg-gray-200 px-4 py-3 rounded-lg font-light tracking-widest hover:text-gray-800 cursor-pointer"
               onClick={(e) => history.push("/")}
             >
               Shop
             </span>
-            <span
+            <span style={{color:"#000000"}}
               className="hover:bg-gray-200 px-4 py-3 rounded-lg font-light tracking-widest hover:text-gray-800 cursor-pointer"
               onClick={(e) => history.push("/blog")}
             >
               Blog
             </span>
-            <span
-              className="hover:bg-gray-200 px-4 py-3 rounded-lg font-light tracking-widest hover:text-gray-800 cursor-pointer"
-              onClick={(e) => history.push("/contact-us")}
-            >
-              Contact us
-            </span>
+          
           </div>
           <div className="col-span-2 lg:hidden flex justify-items-stretch	 items-center">
             <svg
@@ -68,7 +63,7 @@ const Navber = (props) => {
                 d="M4 6h16M4 12h16M4 18h16"
               />
             </svg>
-            <span
+            <span style={{color:"#000000"}}
               onClick={(e) => history.push("/")}
               style={{ letterSpacing: "0.10rem" }}
               className="flex items-left text-center font-bold uppercase text-gray-800 text-2xl cursor-pointer px-2 text-center"
@@ -85,7 +80,7 @@ const Navber = (props) => {
           </div>
           <div className="flex items-right col-span-2 lg:col-span-1 flex justify-end">
             {/*  WishList Page Button */}
-            <div
+            <div style={{color:"#000000"}}
               onClick={(e) => history.push("/wish-list")}
               className="hover:bg-gray-200 rounded-lg px-2 py-2 cursor-pointer"
               title="Wishlist"

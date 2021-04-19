@@ -65,7 +65,7 @@ const Product = () => {
                 </div>
                 <div className="md:w-1/2 md:flex md:items-center md:justify-around">
                   <div className="font-semibold text-gray-600">
-                    ${product.pPrice}.00
+                    Rs.{product.pPrice}.00
                   </div>
                   {product.pQuantity > 0 ? (
                     <div className="text-green-500 my-1 md:my-0">In Stock</div>
@@ -74,7 +74,7 @@ const Product = () => {
                   )}
 
                   <div
-                    style={{ background: "#303031" }}
+                    style={{ background: "#0000FF" }}
                     onClick={(e) => history.push(`/products/${product._id}`)}
                     className="inline-block px-4 py-2 text-white text-xs md:text-base text-center cursor-pointer hover:opacity-75"
                   >

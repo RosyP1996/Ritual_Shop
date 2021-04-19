@@ -13,7 +13,7 @@ const DashboardCard = (props) => {
     <Fragment>
       {/* Card Start */}
       <div className="m-4 grid grid-cols-1 md:grid-cols-4 row-gap-4 col-gap-4">
-        <div className="flex flex-col justify-center items-center col-span-1 bg-white p-6 shadow-lg hover:shadow-none cursor-pointer transition-all duration-300 ease-in border-b-4 border-opacity-0 hover:border-opacity-100 border-indigo-200">
+        <div style={{background:"#FFB6C1"}} className="flex flex-col justify-center items-center col-span-1 bg-white p-6 shadow-lg hover:shadow-none cursor-pointer transition-all duration-300 ease-in border-b-4 border-opacity-0 hover:border-opacity-100 border-indigo-200">
           <div className="bg-indigo-200 p-2 cursor-pointer rounded-full">
             <svg
               className="w-6 h-6"
@@ -54,7 +54,7 @@ const DashboardCard = (props) => {
             </span>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center col-span-1 bg-white p-6 shadow-lg hover:shadow-none cursor-pointer transition-all duration-300 ease-in border-b-4 border-opacity-0 hover:border-opacity-100 border-red-200">
+        <div style={{background:"#add8e6"}} className="flex flex-col justify-center items-center col-span-1 bg-white p-6 shadow-lg hover:shadow-none cursor-pointer transition-all duration-300 ease-in border-b-4 border-opacity-0 hover:border-opacity-100 border-red-200">
           <div className="bg-red-200 p-2 cursor-pointer rounded-full">
             <svg
               className="w-6 h-6"
@@ -95,7 +95,7 @@ const DashboardCard = (props) => {
             </span>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center col-span-1 bg-white p-6 shadow-lg hover:shadow-none cursor-pointer transition-all duration-300 ease-in border-b-4 border-opacity-0 hover:border-opacity-100 border-green-200">
+        <div style={{background:"#FFFF99"}} className="flex flex-col justify-center items-center col-span-1 bg-white p-6 shadow-lg hover:shadow-none cursor-pointer transition-all duration-300 ease-in border-b-4 border-opacity-0 hover:border-opacity-100 border-green-200">
           <div className="bg-green-200 p-2 cursor-pointer rounded-full">
             <svg
               className="w-6 h-6"
@@ -115,7 +115,7 @@ const DashboardCard = (props) => {
           </div>
           <div className="text-lg font-medium">Product</div>
         </div>
-        <div className="flex flex-col justify-center items-center col-span-1 bg-white p-6 shadow-lg hover:shadow-none cursor-pointer transition-all duration-300 ease-in border-b-4 border-opacity-0 hover:border-opacity-100 border-orange-200">
+        <div style={{background:"#CBC3E3"}} className="flex flex-col justify-center items-center col-span-1 bg-white p-6 shadow-lg hover:shadow-none cursor-pointer transition-all duration-300 ease-in border-b-4 border-opacity-0 hover:border-opacity-100 border-orange-200">
           <div className="bg-orange-200 p-2 cursor-pointer rounded-full">
             <svg
               className="w-6 h-6"

@@ -85,7 +85,7 @@ const AddCategoryModal = (props) => {
   return (
     <Fragment>
       {/* Black Overlay */}
-      <div
+      <div 
         onClick={(e) => dispatch({ type: "addCategoryModal", payload: false })}
         className={`${
           data.addCategoryModal ? "" : "hidden"
@@ -106,7 +106,7 @@ const AddCategoryModal = (props) => {
             </span>
             {/* Close Modal */}
             <span
-              style={{ background: "#303031" }}
+              style={{ background: "#000000" }}
               onClick={(e) =>
                 dispatch({ type: "addCategoryModal", payload: false })
               }
@@ -208,7 +208,7 @@ const AddCategoryModal = (props) => {
             </div>
             <div className="flex flex-col space-y-1 w-full pb-4 md:pb-6 mt-4">
               <button
-                style={{ background: "#303031" }}
+                style={{ background: "#000000" }}
                 type="submit"
                 className="bg-gray-800 text-gray-100 rounded-full text-lg font-medium py-2"
               >

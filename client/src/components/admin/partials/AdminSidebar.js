@@ -12,7 +12,7 @@ const AdminSidebar = (props) => {
         id="sidebar"
         className="hidden md:block sticky top-0 left-0 h-screen md:w-3/12 lg:w-2/12 sidebarShadow bg-white text-gray-600"
       >
-        <div
+        <div style={{background:"#FFB6C1"}}
           onClick={(e) => history.push("/admin/dashboard")}
           className={`${
             location.pathname === "/admin/dashboard"
@@ -39,7 +39,7 @@ const AdminSidebar = (props) => {
           <span className="hover:text-gray-800">Dashboard</span>
         </div>
         <hr className="border-b border-gray-200" />
-        <div
+        <div style={{background:"#cbc3e3"}}
           onClick={(e) => history.push("/admin/dashboard/categories")}
           className={`${
             location.pathname === "/admin/dashboard/categories"
@@ -66,7 +66,7 @@ const AdminSidebar = (props) => {
           <span className="hover:text-gray-800">Categories</span>
         </div>
         <hr className="border-b border-gray-200" />
-        <div
+        <div style={{background:"#FFFF99"}}
           onClick={(e) => history.push("/admin/dashboard/products")}
           className={`${
             location.pathname === "/admin/dashboard/products"
@@ -93,7 +93,7 @@ const AdminSidebar = (props) => {
           <span className="hover:text-gray-800">Product</span>
         </div>
         <hr className="border-b border-gray-200" />
-        <div
+        <div style={{background:"#add8e6"}}
           onClick={(e) => history.push("/admin/dashboard/orders")}
           className={`${
             location.pathname === "/admin/dashboard/orders"

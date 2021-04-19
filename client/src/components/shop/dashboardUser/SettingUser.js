@@ -159,7 +159,7 @@ const SettingComponent = () => {
             </div>
             <div
               onClick={(e) => handleChangePassword(fData, setFdata, dispatch)}
-              style={{ background: "#303031" }}
+              style={{ background: "#0000FF" }}
               className="w-full text-center cursor-pointer px-4 py-2 text-gray-100"
             >
               Change password
